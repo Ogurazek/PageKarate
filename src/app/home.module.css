@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Macondo&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne+Mono&family=Trade+Winds&display=swap");
+
+/* Todo esto conforma la primera parte de la página */
+
+.containerHome {
+  width: 100%;
+  height: 36.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5em;
+  /* background-color: red; */
+}
+
+.containerTextHome {
+  width: 48%;
+  height: 100%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  gap: 1.8em;
+}
+
+.containerTextHome div {
+  max-width: 32em;
+  height: auto;
+  background-color: #fffcf9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerTextHome div p {
+  color: #6e6e6edd;
+  text-align: center;
+  font-size: 14px;
+}
+
+.containerTextHome div h1 {
+  font-size: 4em;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+
+.containerImgLogoHome {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.containerImgLogoHome div {
+  width: 31em;
+  height: 31em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerImgLogoHome div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.containerJoinToUs {
+  width: 32em;
+  height: 4.5rem;
+  border-radius: 6px;
+  background-color: #323232;
+  box-shadow: -8px 10px 5px 0px rgb(192, 43, 40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.containerJoinToUs span {
+  color: #fff;
+  font-size: 14px;
+}
+
+.containerJoinToUs button {
+  width: 6rem;
+  height: 2.5rem;
+  color: #fff;
+  background-color: red;
+  border-radius: 6px;
+  border: none;
+}
+
+/* ---------------------------- */
+
+/* Esto conforma la segunda parte de la página */
+
+.containerHome2 {
+  width: 100%;
+  height: 36rem;
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+.containerMiniCards {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: aqua; */
+  overflow: hidden;
+}
+
+.containerMiniCards p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.containerMiniCards2 {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+  display: flex;
+}
+
+.containerCard {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

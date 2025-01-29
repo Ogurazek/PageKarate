@@ -22,9 +22,15 @@ export default function Header() {
                     <div className={nameUrl === '/' ? styles.active : ""}>
                         <Link href="/">Inicio</Link>
                     </div>
-                    <Link href="" className={nameUrl === '/Inscripciones' ? styles.active : ""}>Inscripciones</Link>
-                    <Link href="/Nosotros" className={nameUrl === '/Nosotros' ? styles.active : ""}>Nosotros</Link>
-                    <Link href="" className={nameUrl === '/Torneos' ? styles.active : ""}>Torneos</Link>
+                    <div className={nameUrl === '/Inscripciones' ? styles.active : ""}>
+                        <Link href="/Inscripciones" className={nameUrl === '/Inscripciones' ? styles.active : ""}>Inscripciones</Link>
+                    </div>
+                    <div className={nameUrl === '/Nosotros' ? styles.active : ""}>
+                        <Link href="/Nosotros" className={nameUrl === '/Nosotros' ? styles.active : ""}>Nosotros</Link>
+                    </div>
+                    <div className={nameUrl === '/Torneos' ? styles.active : ""}>
+                        <Link href="" className={nameUrl === '/Torneos' ? styles.active : ""}>Torneos</Link>
+                    </div>
                 </nav>
             </header>
         </div>

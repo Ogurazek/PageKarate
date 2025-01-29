@@ -1,0 +1,95 @@
+.container {
+  width: 70%;
+  height: 16rem;
+  border-radius: 12px;
+  border: 1px solid black;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerTitle {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.containerTitle span {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.containerMain {
+  width: 90%;
+  height: 80%;
+  display: flex;
+}
+
+.containerLeft {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  gap: 0.6rem;
+  text-align: start;
+  flex-direction: column;
+}
+
+.containerLeft strong {
+  font-size: 1.2rem;
+  color: rgb(219, 0, 0);
+}
+
+.containerLeft p {
+  color: #6e6e6edd;
+  width: 70%;
+  height: auto;
+  overflow-wrap: break-word;
+}
+
+.containerRight {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.containerDateTorneo {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
+.containerDateTorneo span {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.containerDateTorneo p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(219, 0, 0);
+}
+
+.containerbuttonTorneo {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.buttonTorneo {
+  width: 7rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(219, 0, 0);
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+}

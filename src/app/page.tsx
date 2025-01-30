@@ -3,6 +3,7 @@ import Image from 'next/image';
 import MiniCards from './ui/MiniCards/miniCards';
 import CardTorneo from './ui/Card/cardTorneo';
 import Link from 'next/link';
+import Card from './ui/Card/Card';
 
 
 
@@ -75,6 +76,13 @@ export default function Home() {
         <section className={styles.containerBoxCards}>
           <CardTorneo />
         </section>
+      </article>
+      <article className={styles.containerHome4}>
+        <div className={styles.containerCardS4}>
+          <Card title='Titulo que no sé' description='i dont know' link='' img='/Img Prueba.jpg' />
+          <Card title='Titulo que no sé' description='i dont know' link='' img='/Img Prueba.jpg' />
+          <Card title='Titulo que no sé' description='i dont know' link='' img='/Img Prueba.jpg' />
+        </div>
       </article>
     </>
   );

@@ -2,6 +2,7 @@
 
 import styles from './header.module.css';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 
@@ -15,7 +16,7 @@ export default function Header() {
             <header className={styles.header_container2}>
                 <div className={styles.containerLogo}>
                     <div>
-                        <img src="/Banderas.png" alt="" />
+                        <Image src="/Banderas.png" alt="" width={300} height={300} />
                     </div>
                 </div>
                 <nav className={styles.navbar}>

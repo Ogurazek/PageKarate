@@ -2,6 +2,7 @@
 :root {
   --background: #fffcf9;
   --foreground: #000000;
+  --varText: #4498e0;
 }
 html,
 body {

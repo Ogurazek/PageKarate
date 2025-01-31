@@ -20,17 +20,17 @@ export default function Header() {
                     </div>
                 </div>
                 <nav className={styles.navbar}>
-                    <div className={nameUrl === '/' ? styles.active : ""}>
+                    <div className={nameUrl === '/' ? styles.active : styles.colorHover}>
                         <Link href="/">Inicio</Link>
                     </div>
-                    <div className={nameUrl === '/Inscripciones' ? styles.active : ""}>
-                        <Link href="/Inscripciones" className={nameUrl === '/Inscripciones' ? styles.active : ""}>Inscripciones</Link>
+                    <div className={nameUrl === '/Inscripciones' ? styles.active : styles.colorHover}>
+                        <Link href="/Inscripciones" className={nameUrl === '/Inscripciones' ? styles.active : styles.colorHover}>Inscripciones</Link>
                     </div>
-                    <div className={nameUrl === '/Nosotros' ? styles.active : ""}>
-                        <Link href="/Nosotros" className={nameUrl === '/Nosotros' ? styles.active : ""}>Nosotros</Link>
+                    <div className={nameUrl === '/Nosotros' ? styles.active : styles.colorHover}>
+                        <Link href="/Nosotros" className={nameUrl === '/Nosotros' ? styles.active : styles.colorHover}>Nosotros</Link>
                     </div>
-                    <div className={nameUrl === '/Torneos' ? styles.active : ""}>
-                        <Link href="" className={nameUrl === '/Torneos' ? styles.active : ""}>Torneos</Link>
+                    <div className={nameUrl === '/Torneos' ? styles.active : styles.colorHover}>
+                        <Link href="" className={nameUrl === '/Torneos' ? styles.active : styles.colorHover}>Torneos</Link>
                     </div>
                 </nav>
             </header>

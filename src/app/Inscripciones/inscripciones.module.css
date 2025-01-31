@@ -1,0 +1,91 @@
+.containerInscrip {
+  width: 100%;
+  height: 36.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3.5em;
+}
+
+.containerInfo {
+  width: 100%;
+  height: 40%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.containerInfo .contenedorTextoIP {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerInfo span {
+  color: var(--varText);
+  font-size: 14px;
+}
+
+.containerInfo strong {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.containerInfo p {
+  color: #6e6e6edd;
+}
+
+.contenedorCardIP {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.containerMessageIP {
+  width: 10rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(6, 209, 6);
+  border-radius: 12px;
+  gap: 12px;
+}
+.containerMessageIP2 {
+  width: 10rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 12px;
+  gap: 12px;
+}
+
+.containerMessageIP a {
+  color: #fff;
+}
+
+.containerImage {
+  width: 28px;
+  height: 28px;
+}
+
+.containerInfo2 {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 2rem;
+}

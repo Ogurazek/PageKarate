@@ -22,7 +22,7 @@ export default function Home() {
           </div>
           <section className={styles.containerJoinToUs}>
             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit</span>
-            <button><Link href="/Inscripciones">Unirme ahora</Link></button>
+            <Link href="/Inscripciones"><button>Unirme ahora</button></Link>
           </section>
         </section>
         <div className={styles.containerImgLogoHome}>

@@ -31,7 +31,7 @@
 
 .lineFooter {
   width: 80%;
-  height: 2px;
+  height: 1px;
   background-color: #4498e0;
   border-radius: 6px;
 }
@@ -44,4 +44,12 @@
   align-items: center;
   gap: 1.5rem;
   color: aliceblue;
+}
+
+.containerTexto a {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.containerTexto a:hover {
+  color: #4497e0;
 }

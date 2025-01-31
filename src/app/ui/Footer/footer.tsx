@@ -19,10 +19,10 @@ export default function Footer() {
                         <Link href='/Torneos'>Torneos</Link>
                     </nav>
                     <nav className={styles.containerTexto}>
-                        <Link href='https://www.facebook.com/karate.nunez' target='_blank'><Facebook color='red' /></Link>
-                        <Link href='/'><Instagram color='red' /></Link>
-                        <Link href='/'><Twitter color='red' /></Link>
-                        <Link href='/'><Phone color='red' /></Link>
+                        <Link href='https://www.facebook.com/karate.nunez' target='_blank'><Facebook color='#4498e0' /></Link>
+                        <Link href='/'><Instagram color='#4498e0' /></Link>
+                        <Link href='/'><Twitter color='#4498e0' /></Link>
+                        <Link href='/'><Phone color='#4498e0' /></Link>
                     </nav>
                 </section>
             </article>

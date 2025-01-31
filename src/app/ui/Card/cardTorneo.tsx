@@ -13,7 +13,7 @@ export default function CardTorneo() {
                 <section className={styles.containerMain}>
                     <div className={styles.containerLeft}>
                         <strong>2025 Torneos Anuales</strong>
-                        <p>holaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholaholahola</p>
+                        <p>Torneo Nacional | Torneo Internacional | Torneo en Goya | </p>
                     </div>
                     <div className={styles.containerRight}>
                         <div className={styles.containerDateTorneo}>

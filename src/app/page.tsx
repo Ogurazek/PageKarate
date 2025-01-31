@@ -6,7 +6,6 @@ import Link from 'next/link';
 import Card from './ui/Card/Card';
 
 
-
 export default function Home() {
 
 
@@ -34,7 +33,7 @@ export default function Home() {
       </article>
       <article className={styles.containerHome2}>
         <section className={styles.containerMiniCards}>
-          <p>Damos clases a: </p>
+          <p>Ofrecemos Clases Para</p>
           <div className={styles.containerMiniCards2}>
             <MiniCards title='Niños' />
             <MiniCards title='Adolescentes' />

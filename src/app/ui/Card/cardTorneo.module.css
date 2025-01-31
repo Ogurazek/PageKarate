@@ -40,7 +40,7 @@
 
 .containerLeft strong {
   font-size: 1.2rem;
-  color: rgb(219, 0, 0);
+  color: #4498e0;
 }
 
 .containerLeft p {
@@ -71,7 +71,7 @@
 .containerDateTorneo p {
   font-size: 1.5rem;
   font-weight: 400;
-  color: rgb(219, 0, 0);
+  color: #4498e0;
 }
 
 .containerbuttonTorneo {
@@ -88,7 +88,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(219, 0, 0);
+  background-color: #4498e0;
   border-radius: 6px;
   border: none;
   color: #fff;

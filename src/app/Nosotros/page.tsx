@@ -1,9 +1,12 @@
+import styles from './Nosotros.module.css'
 
 export default function NosotrosPage() {
     return (
         <>
             <title>Nosotros</title>
-            <div>hola</div>
+            <article className={styles.container}>
+
+            </article>
         </>
     )
 }

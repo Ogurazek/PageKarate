@@ -2,12 +2,16 @@
 
 import styles from './inscripciones.module.css'
 import Image from 'next/image'
-import { PhoneCall } from 'lucide-react';
-import CardInscripcion from '../ui/CardInscripcion/CardInscripcion';
-import Maps from '../ui/maps/mapa';
+import { PhoneCall } from 'lucide-react'
+import CardInscripcion from '../ui/CardInscripcion/CardInscripcion'
+import dynamic from 'next/dynamic'
+
+// Carga dinámica del mapa con fallback
+const Maps = dynamic(() => import('../ui/maps/mapa'), {
+
+})
 
 export default function InscripcionesPage() {
-
     return (
         <>
             <title>Inscripción</title>
@@ -16,7 +20,6 @@ export default function InscripcionesPage() {
                     <div className={styles.contenedorTextoIP}>
                         <span>Contactanos</span>
                         <strong>Inscripciones Abiertas</strong>
-
                         <p>¿Qué esperas para Inscribirte?</p>
                     </div>
                     <section className={styles.contenedorCardIP}>
@@ -78,6 +81,7 @@ export default function InscripcionesPage() {
         </>
     )
 }
+
 
 
 const Cardsinscripcion = [

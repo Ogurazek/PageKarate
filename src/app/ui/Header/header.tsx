@@ -8,9 +8,6 @@ import { usePathname } from 'next/navigation';
 
 export default function Header() {
     const nameUrl = usePathname() // Me devuelve la URL
-    console.log(nameUrl)
-
-
     return (
         <div className={styles.header_container}>
             <header className={styles.header_container2}>

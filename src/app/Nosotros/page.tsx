@@ -1,5 +1,6 @@
 import styles from './Nosotros.module.css'
 import CardNosotros from './CardNosotros/CardNosotros'
+import Image from 'next/image'
 
 
 
@@ -50,6 +51,20 @@ export default function NosotrosPage() {
                     <section className={styles.containerCards}>
                         <CardNosotros img='/imgPrueba3.jpg' title='Claudio Nuñez' description='Instructor de Karate' />
                         <CardNosotros img='/imgPrueba4.jpg' title='Claudio Nuñez' description='Nada' />
+                    </section>
+                    <section className={styles.containerDojo}>
+                        <div className={styles.containerImgDojo}>
+                            <Image src="/ImgPrueba3.jpg" alt="Dojo" width={600} height={600} />
+                        </div>
+                        <div className={styles.containerTextDojo}>
+                            <header className={styles.headerDojo}>
+                                <span className={styles.estiloTitulo}>Nuestro Dojo 🚩</span>
+                                <div className={styles.line}></div>
+                            </header>
+                            <div className={styles.textDojo}>
+                                <p>Nuestro dojo es la representación gráfica de esfuerzo y luchaNuestro dojo es la representación gráfica de esfuerzo y lucha</p>
+                            </div>
+                        </div>
                     </section>
                 </article>
             </article>

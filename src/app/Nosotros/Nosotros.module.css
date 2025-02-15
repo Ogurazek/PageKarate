@@ -73,6 +73,7 @@
   align-items: center;
   background-color: #4498e0;
   color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.212), 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 .containerFirstDiv {
@@ -115,4 +116,56 @@
   align-items: center;
   justify-content: center;
   gap: 6rem;
+}
+
+.containerDojo {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  gap: 1rem;
+}
+
+.containerImgDojo {
+  width: 35%;
+  height: 100%;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.322), 0 1px 3px rgba(0, 0, 0, 0.274);
+}
+
+.containerImgDojo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.containerTextDojo {
+  width: 30%;
+  height: 100%;
+}
+
+.headerDojo {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerDojo span {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.containerTextDojo p {
+  font-size: 0.9rem;
+  color: #525252dd;
+}
+
+.textDojo {
+  width: 100%;
+  height: 70%;
 }

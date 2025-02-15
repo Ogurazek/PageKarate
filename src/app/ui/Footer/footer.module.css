@@ -53,3 +53,8 @@
 .containerTexto a:hover {
   color: #4497e0;
 }
+
+.active {
+  color: var(--varText);
+  transition: background-color 0.3s ease, padding 0.2s ease-out;
+}

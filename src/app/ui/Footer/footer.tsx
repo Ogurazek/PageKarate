@@ -1,9 +1,14 @@
+'use client'
 import styles from './footer.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { Facebook, Instagram, Phone, Twitter } from 'lucide-react';
 
 export default function Footer() {
+
+    const nameUrl = usePathname() // Me devuelve la URL
+
     return (
         <>
             <article className={styles.container}>
@@ -13,10 +18,10 @@ export default function Footer() {
                     </div>
                     <div className={styles.lineFooter}></div>
                     <nav className={styles.containerTexto}>
-                        <Link href='/'>Inicio</Link>
-                        <Link href='/Inscripciones'>Inscripciones</Link>
-                        <Link href='/Nosotros'>Nosotros</Link>
-                        <Link href='/Torneos'>Torneos</Link>
+                        <Link className={nameUrl === '/' ? styles.active : ""} href='/'>Inicio</Link>
+                        <Link className={nameUrl === '/Inscripciones' ? styles.active : ""} href='/Inscripciones'>Inscripciones</Link>
+                        <Link className={nameUrl === '/Nosotros' ? styles.active : ""} href='/Nosotros'>Nosotros</Link>
+                        <Link className={nameUrl === '/Torneos' ? styles.active : ""} href='/Torneos'>Torneos</Link>
                     </nav>
                     <nav className={styles.containerTexto}>
                         <Link href='https://www.facebook.com/karate.nunez' target='_blank'><Facebook color='#4498e0' /></Link>

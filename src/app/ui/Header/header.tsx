@@ -16,7 +16,7 @@ export default function Header() {
             <header className={styles.header_container2}>
                 <div className={styles.containerLogo}>
                     <div>
-                        <Image src="/Banderas.png" alt="" width={300} height={300} />
+                        <Image src="/Banderasss.png" alt="" width={300} height={300} />
                     </div>
                 </div>
                 <nav className={styles.navbar}>

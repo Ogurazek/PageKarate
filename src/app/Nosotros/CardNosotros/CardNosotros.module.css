@@ -1,0 +1,46 @@
+.containerS4 {
+  width: 18rem;
+  height: 17rem;
+  background-color: #f9f4ec;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.116), 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+.containerIMGS4 {
+  width: 90%;
+  height: 65%;
+  display: flex;
+  align-items: end;
+  overflow: hidden;
+  /* background-color: red; */
+}
+
+.containerIMGS4 img {
+  width: 100%;
+  height: 90%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.containerInfoS4 {
+  width: 90%;
+  height: 45%;
+  /* background-color: rgb(122, 12, 12); */
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.containerInfoS4 strong {
+  font-size: 1.1rem;
+}
+
+.containerInfoS4 p {
+  font-size: 14px;
+  overflow-wrap: break-word;
+  color: #6e6e6edd;
+}

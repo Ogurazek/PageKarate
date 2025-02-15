@@ -9,7 +9,7 @@ export default function Footer() {
             <article className={styles.container}>
                 <section className={styles.containerSection}>
                     <div className={styles.containerImgFooter}>
-                        <Image className={styles.image} src='/Banderas.png' alt='' width={600} height={600} />
+                        <Image className={styles.image} src='/Banderasss.png' alt='' width={800} height={800} />
                     </div>
                     <div className={styles.lineFooter}></div>
                     <nav className={styles.containerTexto}>

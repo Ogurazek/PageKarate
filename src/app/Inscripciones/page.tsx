@@ -10,6 +10,7 @@ export default function InscripcionesPage() {
 
     return (
         <>
+            <title>Inscripción</title>
             <article className={styles.containerInscrip}>
                 <section className={styles.containerInfo}>
                     <div className={styles.contenedorTextoIP}>

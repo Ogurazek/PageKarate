@@ -2,7 +2,117 @@
   width: 100%;
   height: auto;
   display: flex;
-  justify-content: center;
+  align-items: center;
   flex-direction: column;
   min-height: 40rem;
+}
+
+.containerInformacion {
+  width: 65rem;
+  height: 40rem;
+  /* background-color: red; */
+  display: flex;
+}
+
+.containerInfoOne {
+  width: 50%;
+  height: 100%;
+  /* background-color: blanchedalmond; */
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+}
+
+.containerTitle {
+  width: 100%;
+  height: 20%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.containerTitle h1 {
+  font-size: 4rem;
+  margin: 0;
+  word-spacing: 1rem;
+}
+
+.line {
+  width: 8rem;
+  height: 0.4rem;
+  border-radius: 6px;
+  background-color: #4498e0;
+}
+
+.containerInfoOne p {
+  font-size: 0.9rem;
+  color: #525252dd;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.containerInfoTwo {
+  width: 50%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 70%,
+      rgba(255, 255, 255, 1) 100%
+    ),
+    url(/TigreKarate_Enhanced.png);
+}
+
+.containerLineDivisor {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4498e0;
+  color: #fff;
+}
+
+.containerFirstDiv {
+  width: 14rem;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerFirstDiv p {
+  font-size: 2rem;
+}
+.containerSecondDiv p {
+  font-size: 2rem;
+}
+.containerSecondDiv {
+  width: 14rem;
+  border-left: 0.2px solid #ffffff;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 40rem;
+}
+
+.containerCards {
+  margin-top: 2rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
 }

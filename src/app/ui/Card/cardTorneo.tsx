@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 
 
-export default function CardTorneo() {
+export default function CardTorneo({ url, infobutton }: { url: string, infobutton: string }) {
     return (
         <>
             <article className={styles.container}>
@@ -21,8 +21,8 @@ export default function CardTorneo() {
                             <p>Sept, Sábado</p>
                         </div>
                         <div className={styles.containerbuttonTorneo}>
-                            <Link href="/Torneos">
-                                <div className={styles.buttonTorneo}>View Detail</div>
+                            <Link href={url}>
+                                <div className={styles.buttonTorneo}>{infobutton}</div>
                             </Link>
                         </div>
                     </div>

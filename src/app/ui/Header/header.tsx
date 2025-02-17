@@ -27,7 +27,7 @@ export default function Header() {
                         <Link href="/Nosotros" className={nameUrl === '/Nosotros' ? styles.active : styles.colorHover}>Nosotros</Link>
                     </div>
                     <div className={nameUrl === '/Torneos' ? styles.active : styles.colorHover}>
-                        <Link href="" className={nameUrl === '/Torneos' ? styles.active : styles.colorHover}>Torneos</Link>
+                        <Link href="/Torneos" className={nameUrl === '/Torneos' ? styles.active : styles.colorHover}>Torneos</Link>
                     </div>
                 </nav>
             </header>

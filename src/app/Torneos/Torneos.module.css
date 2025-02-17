@@ -1,0 +1,59 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-bottom: 2rem;
+}
+
+.container .torneoTitle {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.containerMain {
+  width: 100%;
+  min-height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: contain;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 70%,
+      #fffcf9 100%
+    ),
+    url(/ImgPrueba2.jpg);
+}
+
+.containerCardTorneo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.containerCollage {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.containerCollageItem {
+  width: 76%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

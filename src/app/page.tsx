@@ -1,3 +1,4 @@
+
 import styles from './home.module.css';
 import Image from 'next/image';
 import MiniCards from './ui/MiniCards/miniCards';
@@ -7,8 +8,8 @@ import Card from './ui/Card/Card';
 import { Fade } from "react-awesome-reveal";
 
 
-export default function Home() {
 
+export default function Home() {
 
   return (
     <>
@@ -22,13 +23,13 @@ export default function Home() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vel officia non doloremque eaque quia, inventore ea, accusantium, aspernatur asperiores recusandae pariatur reprehenderit soluta velit ipsam accusamus debitis qui consequatur.</p>
           </div>
           <section className={styles.containerJoinToUs}>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit</span>
+            <span>¿Qué estas esperando para unirte?</span>
             <Link href="/Inscripciones"><button>Unirme ahora</button></Link>
           </section>
         </section>
         <div className={styles.containerImgLogoHome}>
           <div>
-            <Image src="/LogoDojohd2.png" alt="Logo Okinawa" width={400} height={400} />
+            <Image src="/LogoDojohd2.png" alt="Logo Okinawa" width={400} height={300} style={{ width: '100%', height: '100%' }} />
           </div>
         </div>
       </article>
@@ -92,8 +93,8 @@ export default function Home() {
             <Card title='Titulo que no sé' description='i dont know' link='' img='/Img Prueba.jpg' />
           </Fade>
         </div>
-
       </article>
     </>
   );
 }
+

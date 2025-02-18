@@ -1,7 +1,7 @@
 /* Todo esto conforma la primera parte de la página */
 
 .containerHome {
-  width: 100%;
+  width: 100vw;
   height: 36.5rem;
   display: flex;
   justify-content: center;
@@ -39,7 +39,6 @@
 .containerTextHome div {
   max-width: 32em;
   height: auto;
-  background-color: #fffcf9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,11 +58,12 @@
 }
 
 .containerImgLogoHome {
-  width: 48%;
+  min-width: 660px;
   height: 100%;
   display: flex;
   justify-content: start;
   align-items: center;
+  /* background-color: red; */
 }
 
 .containerImgLogoHome div {
@@ -154,12 +154,13 @@
   justify-content: center;
   align-items: center;
   gap: 1.8em;
+  /* background-color: blue; */
 }
 
 .containerSecondImg {
   width: 48%;
   height: 100%;
-  /* background-color: blue; */
+  /* background-color: red; */
   display: flex;
   align-items: end;
   flex-direction: column;
@@ -307,4 +308,111 @@
   /* background-color: aquamarine; */
   gap: 2rem;
   margin-bottom: 2.5rem;
+}
+
+@media (max-width: 1025px) {
+  .containerHome {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    margin-top: 0.5rem;
+  }
+  .containerImgLogoHome {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .containerImgLogoHome div {
+    width: 75%;
+    height: auto;
+    min-width: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerTextHome {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerJoinToUs {
+    width: 60%;
+  }
+  .containerHome2 {
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerCard {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerSecondImg {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerHome3 .containerSubTitle {
+    height: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 670px) {
+  .containerJoinToUs {
+    width: 95%;
+    gap: 1rem;
+    padding: 6px;
+  }
+  .containerMiniCards2 {
+    gap: 6px;
+  }
+  .containerCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .containerSecondImg {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .recuadroImg {
+    width: 100%;
+    height: auto;
+    padding: 0.8rem;
+  }
+  .containerSecondText {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .recuadroTexto {
+    width: 100%;
+    height: auto;
+    padding: 6px;
+  }
+  .containerMiniCards {
+    margin-bottom: 0;
+  }
+  .containerTextHome div p {
+    padding: 6px;
+  }
+  .containerHome3 {
+    height: auto;
+    margin-bottom: 1rem;
+  }
 }

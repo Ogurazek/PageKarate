@@ -57,3 +57,16 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
+
+@media (max-width: 670px) {
+  .container .torneoTitle {
+    font-size: 2rem;
+  }
+  .containerCollageItem {
+    width: 100%;
+    gap: 2px;
+  }
+  .containerCollage {
+    margin-top: 2rem;
+  }
+}

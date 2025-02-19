@@ -19,7 +19,7 @@ export default function TorneosPage() {
                 <div className={styles.containerCardTorneo}  >
                     <CardTorneo url='#' infobutton='no sé' />
                 </div>
-                <p className={styles.torneoTitle}>Rompimos algunos trastes 🏆</p>
+                <p className={styles.torneoTitle}>Rompimos algunos traste 🏆</p>
                 <section className={styles.containerCollage}>
                     <div className={styles.containerCollageItem}>
                         <Fade direction='left' triggerOnce>

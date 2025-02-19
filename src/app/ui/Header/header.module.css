@@ -17,7 +17,7 @@
 }
 
 .navbar {
-  width: 34em;
+  width: 28em;
   height: 100%;
   gap: 2.5em;
   display: flex;
@@ -76,4 +76,29 @@
 
 .navbar .colorHover:hover {
   color: #4497e08a;
+}
+
+.navbarHamburguesa {
+  width: 3rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.articleHamburguesa {
+  width: 100vw;
+  height: 100vh;
+  display: fixed;
+  background-color: red;
+}
+
+@media (max-width: 670px) {
+  .navbar {
+    display: none;
+  }
+  .navbarHamburguesa {
+    display: flex;
+  }
 }

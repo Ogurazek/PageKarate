@@ -45,7 +45,8 @@ export default function NosotrosPage() {
                             Nuestro objetivo es brindar a nuestros clientes
                         </p>
                     </div>
-                    <div className={styles.containerInfoTwo}></div>
+                    <div className={styles.containerInfoTwo}>
+                    </div>
                 </section>
                 <section className={styles.containerLineDivisor}>
                     <Fade direction='left' triggerOnce>
@@ -68,7 +69,10 @@ export default function NosotrosPage() {
                                 <div className={styles.line}></div>
                             </header>
                             <div className={styles.textDojo}>
-                                <p>Nuestro dojo es la representación gráfica de esfuerzo y luchaNuestro dojo es la representación gráfica de esfuerzo y lucha</p>
+                                <p>
+                                    Nuestro dojo es la representación gráfica de esfuerzo y luchaNuestro dojo es la representación gráfica de esfuerzo y lucha
+                                    Nuestro dojo es la representación gráfica de esfuerzo y luchaNuestro dojo es la representación gráfica de esfuerzo y lucha
+                                </p>
                             </div>
                         </div>
                     </section>

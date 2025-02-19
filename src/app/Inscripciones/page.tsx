@@ -43,7 +43,7 @@ export default function InscripcionesPage() {
                     <div className={styles.containerRequisitos}>
                         <div className={styles.contenedorBloque1Card}>
                             <header className={styles.containerRequisitosHder}>
-                                <p>Beneficios de Inscribirse 😎🦖</p>
+                                <p>Beneficios de Inscribirse</p>
                             </header>
                             <article className={styles.containerRequisitosArti}>
                                 <div>
@@ -56,7 +56,7 @@ export default function InscripcionesPage() {
                         </div>
                         <div className={styles.contenedorBloque2Card}>
                             <header className={styles.containerRequisitosHder}>
-                                <p>Día de Clases y Horarios 📅🗓️</p>
+                                <p>Día de Clases y Horarios</p>
                             </header>
                             <article className={styles.containerRequisitosArti}>
                                 <div>

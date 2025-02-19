@@ -98,12 +98,19 @@
   .container {
     width: 95%;
     height: auto;
+    padding: 0.8rem;
   }
   .containerLeft strong {
     font-size: 0.9rem;
   }
   .buttonTorneo {
-    width: 6rem;
+    width: 5rem;
     height: 2.2rem;
+  }
+  .containerDateTorneo span {
+    font-size: 2.5rem;
+  }
+  .containerLeft p {
+    font-size: 0.8rem;
   }
 }

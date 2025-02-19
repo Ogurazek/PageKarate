@@ -94,6 +94,17 @@
   background-color: red;
 }
 
+.navbarHamburguesa button {
+  background: transparent;
+  border: none;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+}
+
+.navbarHamburguesa button:hover {
+  opacity: 0.5;
+}
 @media (max-width: 670px) {
   .navbar {
     display: none;

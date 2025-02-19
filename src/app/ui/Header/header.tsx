@@ -5,10 +5,15 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Menu } from 'lucide-react';
+import { Dispatch, SetStateAction } from "react";
 
+interface HeaderProps {
+    setMenuOpen: Dispatch<SetStateAction<boolean>>;
+}
+export default function Header({ setMenuOpen }: HeaderProps) {
 
-export default function Header() {
     const nameUrl = usePathname()
+
     return (
         <>
             <div className={styles.header_container}>
@@ -19,7 +24,7 @@ export default function Header() {
                         </div>
                     </div>
                     <nav className={styles.navbarHamburguesa}>
-                        <Menu size={32} />
+                        <button onClick={() => setMenuOpen(prev => !prev)}><Menu size={32} /></button>
 
                     </nav>
                     <nav className={styles.navbar}>

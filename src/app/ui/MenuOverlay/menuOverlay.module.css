@@ -1,0 +1,33 @@
+.containerOv {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerOv ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 2rem;
+  margin-bottom: 8rem;
+}
+
+.containerOv ul li {
+  font-size: 2rem;
+}
+
+.containerOv ul li :hover {
+  cursor: pointer;
+}
+
+.active {
+  color: var(--varText);
+}

@@ -20,7 +20,7 @@ export default function Home() {
             <h1> Karate Do para la Mente, Cuerpo y Espíritu </h1>
           </div>
           <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vel officia non doloremque eaque quia, inventore ea, accusantium, aspernatur asperiores recusandae pariatur reprehenderit soluta velit ipsam accusamus debitis qui consequatur.</p>
+            <p>Somos una escuela de Karate Do Tradicional Kyudokan Shorin Ryu y Kobudo Ryukonkai, con sede en Chaco, Argentina. Nos especializamos en defensa personal (combate de manos vacías) y competencias deportivas, tanto individuales como en equipo, en niveles provinciales, nacionales e internacionales</p>
           </div>
           <section className={styles.containerJoinToUs}>
             <span>¿Qué estas esperando para unirte?</span>
@@ -48,12 +48,11 @@ export default function Home() {
             <div className={styles.recuadroImg}>
               <div className={styles.contenedorImg}>
                 <Fade direction="left" triggerOnce>
-                  <Image src="/Img Prueba.jpg" alt="prueba" width={400} height={400} />
+                  <Image src="/fotoPortada.webp" alt="prueba" width={400} height={400} />
                 </Fade>
               </div>
               <div className={styles.contenedorTexto}>
-                <p>elit. Corrupti libero nesciunt illum cupiditate, voluptates at totam, hic officiis nam accusantium aspernatur
-                  voluptatibus mollitia quas cumque architecto necessitatibus id alias odio.voluptatibus mollitia quas cumque architecto necessitatibus id alias odio. <a href="">Ver más</a>
+                <p>Cada fin de año, nuestros alumnos rinden examen en nuestra Sede Central en Corrientes (Capital), el Dojo Shibana, para demostrar lo aprendido a lo largo del año. La evaluación está a cargo del Director Técnico de la Región Norte, Sensei Moratto Hugo Mariano, 8° Dan Kyoshi.       <a href="">Ver más</a>
                 </p>
               </div>
             </div>
@@ -63,10 +62,9 @@ export default function Home() {
               <div className={styles.recuadroTexto}>
                 <span>🏆 Okinawa Shorin Ryu Kyudokan</span>
                 <strong>空手道少林流弓道館</strong>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit atque tempora, minus omnis harum consequatur vero, totam quibusdam saepe porro possimus, nam cumque minima
-                  repudiandae molestiae explicabo reiciendis qui ad!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit nulla. Reprehenderit placeat temporibus atque id illo, magnam odio nobis beatae assumenda esse excepturi corporis necessitatibus qui. Impedit, assumenda tempore.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit nulla. Reprehenderit placeat temporibus atque id illo, magnam odio nobis beatae assumenda esse excepturi corporis necessitatibus qui. Impedit, assumenda tempore.
+                <p>El Shorin Ryu es uno de los primeros estilos de Karate que surgieron en Okinawa, fundado por Choshin Chibana (1885-1969). Su nombre significa "Estilo del Bosque Pequeño" y es una adaptación de las enseñanzas del antiguo Shuri-Te, el arte marcial practicado en la capital de Okinawa, Shuri.</p>
+                <p>El Kyudokan es una de las principales ramas del Shorin Ryu, fundada por Yuchoku Higa (1910-1994), un discípulo directo de Choshin Chibana. Su objetivo era preservar las técnicas tradicionales del Karate de Okinawa con un énfasis en la fluidez, la precisión y el control corporal.
+                  El nombre "Kyudokan" significa "Casa de la Investigación", reflejando el compromiso de Higa con el estudio profundo del Karate. En este estilo, se pone especial atención en la postura, la respiración y la aplicación práctica de las técnicas en combate real.
                 </p>
                 <Link href="/Nosotros">Ver más</Link>
               </div>
@@ -88,9 +86,9 @@ export default function Home() {
 
         <div className={styles.containerCardS4}>
           <Fade direction="left" triggerOnce>
-            <Card title='Titulo que no sé' description='i dont know' link='' img='/Img Prueba.jpg' />
-            <Card title='Titulo que no sé' description='i dont know' link='' img='/Img Prueba.jpg' />
-            <Card title='Titulo que no sé' description='i dont know' link='' img='/Img Prueba.jpg' />
+            <Card title='Inscripciones' description='Beneficios, Días y horarios, Ubicación, Whatsapp' link='/Inscripciones' img='/FotoCardPage.jpg' />
+            <Card title='Nosotros' description='Somos una escuela de Barranqueras, Chaco, fundada en el año 2019. Comenzamos impartiendo clases en distintos espacios, como clubes...' link='/Nosotros' img='/Dojo.webp' />
+            <Card title='Torneos' description='Los desafios que vienen, y torneos en donde hicimos historia' link='Torneos' img='/fotoportada2.png' />
           </Fade>
         </div>
       </article>

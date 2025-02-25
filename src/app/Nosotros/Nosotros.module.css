@@ -180,8 +180,9 @@
     flex-direction: column-reverse;
   }
   .containerInfoTwo {
-    width: 100%;
+    width: 90%;
     height: 60rem;
+    background-color: red;
   }
   .containerInfoOne {
     width: 90%;
@@ -207,7 +208,7 @@
 
 @media (max-width: 670px) {
   .containerInfoTwo {
-    width: 100%;
+    width: 90%;
     height: 40rem;
   }
   .containerImgDojo {

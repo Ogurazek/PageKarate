@@ -17,7 +17,7 @@ export default function InscripcionesPage() {
             <article className={styles.containerInscrip}>
                 <section className={styles.containerInfo}>
                     <div className={styles.contenedorTextoIP}>
-                        <span>Contactanos</span>
+                        <span>Contáctanos</span>
                         <Zoom triggerOnce>
                             <strong>Inscripciones Abiertas</strong>
                         </Zoom>
@@ -43,28 +43,28 @@ export default function InscripcionesPage() {
                     <div className={styles.containerRequisitos}>
                         <div className={styles.contenedorBloque1Card}>
                             <header className={styles.containerRequisitosHder}>
-                                <p>Beneficios de Inscribirse</p>
+                                <p>Beneficios de Inscribirse 🥋</p>
                             </header>
                             <article className={styles.containerRequisitosArti}>
                                 <div>
                                     <p>• Clases con instructores certificados</p>
-                                    <p>• Desarrollo físico y mental</p>
-                                    <p>• Golpear primero, golpear fuerte</p>
-                                    <p>• No ser una nenita</p>
+                                    <p>• Espacio inclusivo</p>
+                                    <p>• Aprendizaje de defensa personal</p>
+                                    <p>• Mejora de la disciplina y la concentración</p>
+                                    <p>• Aumento de la confianza y autoestima</p>
                                 </div>
                             </article>
                         </div>
                         <div className={styles.contenedorBloque2Card}>
                             <header className={styles.containerRequisitosHder}>
-                                <p>Día de Clases y Horarios</p>
+                                <p>Días y Horarios 🕒</p>
                             </header>
                             <article className={styles.containerRequisitosArti}>
                                 <div>
-                                    <p>• Lunes de 18:30 a 20:00</p>
-                                    <p>• Martes de 18:30 a 20:00</p>
-                                    <p>• Miércoles de 18:30 a 20:00</p>
-                                    <p>• Jueves de 18:30 a 20:00</p>
-                                    <p>• Viernes de 18:30 a 20:00</p>
+                                    <p>• Lunes de 18:30 a 20:00 || 20:30 a 22:00</p>
+                                    <p>• Martes de 17:00 a 18:30</p>
+                                    <p>• Miércoles de 18:30 a 20:00 || 20:30 a 22:00</p>
+                                    <p>• Jueves de 17:00 a 18:30</p>
                                 </div>
                             </article>
                         </div>
@@ -91,29 +91,34 @@ export default function InscripcionesPage() {
 
 const Cardsinscripcion = [
     {
-        img: "/ImgPrueba2.jpg",
-        description: "ESTAS",
+        img: "/cardInscripciones7.webp",
+        description: "¿Listo/a",
         id: 1,
     },
     {
-        img: "/ImgPrueba2.jpg",
-        description: "PREPARADO",
+        img: "/cardInscripciones8.webp",
+        description: "Para",
         id: 2,
     },
     {
-        img: "/ImgPrueba2.jpg",
-        description: "PARA",
+        img: "/cardInscripciones6.webp",
+        description: "Enfrentar",
         id: 3,
     },
     {
-        img: "/ImgPrueba2.jpg",
-        description: "EL",
+        img: "/cardInscripciones4.webp",
+        description: "Un",
         id: 4,
     },
     {
-        img: "/ImgPrueba2.jpg",
-        description: "DESAFÍO",
+        img: "/cardInscripciones3.webp",
+        description: "Nuevo",
         id: 5,
+    },
+    {
+        img: "/cardInscripciones1.webp",
+        description: "Desafío?",
+        id: 6,
     },
 ]
 

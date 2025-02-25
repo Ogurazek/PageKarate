@@ -225,7 +225,7 @@
   overflow: hidden;
   flex-direction: column;
   display: flex;
-  gap: 2rem;
+  gap: 1.8rem;
   text-wrap: wrap;
 }
 
@@ -245,7 +245,7 @@
 
 .recuadroTexto p {
   color: #6e6e6edd;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .recuadroTexto a {

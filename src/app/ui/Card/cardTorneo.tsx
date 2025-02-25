@@ -13,12 +13,12 @@ export default function CardTorneo({ url, infobutton }: { url: string, infobutto
                 <section className={styles.containerMain}>
                     <div className={styles.containerLeft}>
                         <strong>2025 Torneos Anuales</strong>
-                        <p>Torneo Nacional | Torneo Internacional | Torneo en Goya | </p>
+                        <p>Próximamente</p>
                     </div>
                     <div className={styles.containerRight}>
                         <div className={styles.containerDateTorneo}>
-                            <span>12</span>
-                            <p>Sept, Sábado</p>
+                            <span>??</span>
+                            <p>??</p>
                         </div>
                         <div className={styles.containerbuttonTorneo}>
                             <Link href={url}>

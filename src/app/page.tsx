@@ -48,7 +48,7 @@ export default function Home() {
             <div className={styles.recuadroImg}>
               <div className={styles.contenedorImg}>
                 <Fade direction="left" triggerOnce>
-                  <Image src="/fotoPortada.webp" alt="prueba" width={400} height={400} />
+                  <Image src="/fotoportada.webp" alt="prueba" width={400} height={400} />
                 </Fade>
               </div>
               <div className={styles.contenedorTexto}>

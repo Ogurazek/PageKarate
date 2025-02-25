@@ -182,7 +182,6 @@
   .containerInfoTwo {
     width: 90%;
     height: 60rem;
-    background-color: red;
   }
   .containerInfoOne {
     width: 90%;
@@ -226,9 +225,10 @@
   .containerInfoTwo {
     width: 100%;
     height: 50rem;
+    object-fit: contain;
   }
   .containerImgDojo {
-    width: 95%;
+    width: 90%;
   }
   .containerTextDojo {
     width: 90%;

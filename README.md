@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dojo Karate Website
 
-## Getting Started
+Este proyecto es un sitio web informativo sobre un dojo de Karate, diseñado para proporcionar detalles sobre el dojo, inscripciones, torneos y más. Está desarrollado utilizando **Next.js 14** con **React 18**.
 
-First, run the development server:
+## Características
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Secciones principales**:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  - **Home**: Página principal con información destacada.
+  - **Inscripciones**: Detalles sobre cómo inscribirse en el dojo.
+  - **Torneos**: Información sobre eventos y torneos organizados.
+  - **Nosotros**: Sección sobre la historia y valores del dojo.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Diseño único y totalmente responsivo**: Adaptado para todo tipo de dispositivos, desde móviles hasta pantallas de escritorio.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Animaciones**: Implementadas con **react-awesome-reveal** para mejorar la experiencia visual.
 
-## Learn More
+- **Uso de iconos**: Implementación de **Lucide** para enriquecer el diseño visual.
 
-To learn more about Next.js, take a look at the following resources:
+## Tecnologías utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next.js 14**: Framework utilizado para la construcción del sitio web.
+- **React 18**: Biblioteca principal para la interfaz de usuario.
+- **CSS Modules**: Para estilos personalizados y modulares.
+- **react-awesome-reveal**: Para animaciones fluidas y elegantes.
+- **Lucide**: Librería de iconos para mejorar la interfaz.
+- **Vercel**: Plataforma utilizada para el despliegue del sitio web.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Link del Proyecto
 
-## Deploy on Vercel
+Puedes ver el sitio web aquí ---> [Enlace al proyecto](https://page-karate.vercel.app)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Autor
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Creado por **Elías Pérez**. Puedes encontrarme en:
+
+- [LinkedIn](https://www.linkedin.com/in/elias-leonel-perez-8098b1284/)
+
+---
+
+¡Gracias por visitar el sitio web del dojo! 🥋🔥

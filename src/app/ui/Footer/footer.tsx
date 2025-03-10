@@ -27,7 +27,7 @@ export default function Footer() {
                         <Link href='https://www.facebook.com/karate.nunez' target='_blank'><Facebook color='#4498e0' /></Link>
                         <Link href='/'><Instagram color='#4498e0' /></Link>
                         <Link href='/'><Twitter color='#4498e0' /></Link>
-                        <Link href='/'><Phone color='#4498e0' /></Link>
+                        <Link href="https://wa.me/543624280051" target="_blank"><Phone color='#4498e0' /></Link>
                     </nav>
                 </section>
             </article>

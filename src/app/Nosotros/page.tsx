@@ -22,7 +22,7 @@ export default function NosotrosPage() {
                         <p>
                             Somos una escuela de Barranqueras, Chaco, fundada en el año 2019. Comenzamos impartiendo clases en distintos espacios, como clubes y plazas, con recursos limitados, pero con un gran compromiso por la enseñanza. Con el tiempo, la escuela fue creciendo gracias al esfuerzo de nuestros alumnos y al apoyo incondicional de sus familias, hasta convertirnos en lo que somos hoy: un gran dojo de karate.
 
-                            <br /><br />Nuestra escuela está dirigida por el Sensei Claudio Alejandro Núñez, 4° Dan Renshi, quien se encuentra instruido por el Maestro Mariano Hugo Moratto, 8° Dan Hanshi, Director de la Región Norte en la Asociación Litoral Karate Do Tradicional y Kobudo Ryukonkai Okinawa Japón.
+                            <br /><br />Nuestra escuela está dirigida por el Sensei Claudio Alejandro Núñez, 4° Dan Renshi, quien se encuentra instruido por el Maestro Mariano Hugo Moratto, 8° Dan Kyoshi, Director de la Región Norte en la Asociación Litoral Karate Do Tradicional y Kobudo Ryukonkai Okinawa Japón.
 
                             Nos especializamos en el karate tradicional de Okinawa, Japón, siguiendo la disciplina Kyudokan Shorin Ryu y el arte del Kobudo Ryukonkai. Más que formar competidores, buscamos transmitir valores como la disciplina, el respeto y la perseverancia, pilares fundamentales de estas tradiciones marciales.
 

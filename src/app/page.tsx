@@ -52,7 +52,7 @@ export default function Home() {
                 </Fade>
               </div>
               <div className={styles.contenedorTexto}>
-                <p>Cada fin de año, nuestros alumnos rinden examen en nuestra Sede Central en Corrientes (Capital), el Dojo Shibana, para demostrar lo aprendido a lo largo del año. La evaluación está a cargo del Director Técnico de la Región Norte, Sensei Moratto Hugo Mariano, 8° Dan Kyoshi.       <a href="">Ver más</a>
+                <p>Cada fin de año, nuestros alumnos rinden examen en nuestra Sede Central en Corrientes (Capital), el Dojo Shibana, para demostrar lo aprendido a lo largo del año. La evaluación está a cargo del Director Técnico de la Región Norte, Sensei Moratto Hugo Mariano, 8° Dan Kyoshi.       <a href="/Nosotros">Ver más</a>
                 </p>
               </div>
             </div>

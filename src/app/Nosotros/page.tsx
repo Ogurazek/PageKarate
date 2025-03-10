@@ -22,7 +22,7 @@ export default function NosotrosPage() {
                         <p>
                             Somos una escuela de Barranqueras, Chaco, fundada en el año 2019. Comenzamos impartiendo clases en distintos espacios, como clubes y plazas, con recursos limitados, pero con un gran compromiso por la enseñanza. Con el tiempo, la escuela fue creciendo gracias al esfuerzo de nuestros alumnos y al apoyo incondicional de sus familias, hasta convertirnos en lo que somos hoy: un gran dojo de karate.
 
-                            <br /><br />Nuestra escuela está dirigida por el Sensei Claudio Alejandro Núñez, 4° Dan Renshi, quien se encuentra instruido por el Maestro Mariano Hugo Moratto, 8° Dan Kyoshi, Director de la Región Norte en la Asociación Litoral Karate Do Tradicional y Kobudo Ryukonkai Okinawa Japón.
+                            <br /><br />Nuestra escuela está dirigida por el Sensei Claudio Alejandro Núñez, 4° Dan Renshi, que actualmente es el Presidente de la Asociación Norte del Litoral de Karate Do Tradicional Kyudokan y Kobudo Ryukonkai, quien se encuentra instruido por el Maestro Mariano Hugo Moratto, 8° Dan Kyoshi, Director Técnico de la Región Norte en la Asociación Litoral Karate Do Tradicional y Kobudo Ryukonkai Okinawa Japón.
 
                             Nos especializamos en el karate tradicional de Okinawa, Japón, siguiendo la disciplina Kyudokan Shorin Ryu y el arte del Kobudo Ryukonkai. Más que formar competidores, buscamos transmitir valores como la disciplina, el respeto y la perseverancia, pilares fundamentales de estas tradiciones marciales.
 
@@ -63,8 +63,10 @@ export default function NosotrosPage() {
                     </section>
                     <section className={styles.containerCards}>
                         <Fade direction='left' triggerOnce>
-                            <CardNosotros img='/FotoClaudio.jpg' title='Claudio A. Nuñez' description='Instructor de Karate 4° Dan Renshi Filial Barranqueras, Chaco' />
-                            <CardNosotros img='/SenseiMoratto.jpg' title='Mariano Hugo Moratto' description='Instructor de Karate 8° Dan Kyoshi Filial Corrientes, Corrientes' />
+                            <CardNosotros img='/FotoClaudio.jpg' title='Claudio Alejandro Nuñez' description='Instructor de Karate 4° Dan Renshi Filial Barranqueras, Chaco Argentina' />
+                            <CardNosotros img='/SenseiMoratto.jpg' title='Mariano Hugo Moratto' description='Instructor de Karate 8° Dan Kyoshi Filial Corrientes Capital Argentina' />
+                            <CardNosotros img='/PedroFattore.jpg' title='Pedro Fattore' description='Hanshi 10° Dan Buenos Aires, Argentina' />
+                            <CardNosotros img='/Minoru.jpeg' title='Minoru Higa' description='Hanshi 10° Dan, Kaicho Okinawa Japon' />
                         </Fade>
                     </section>
                 </article>

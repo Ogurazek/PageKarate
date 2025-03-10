@@ -64,7 +64,7 @@ export default function NosotrosPage() {
                     <section className={styles.containerCards}>
                         <Fade direction='left' triggerOnce>
                             <CardNosotros img='/FotoClaudio.jpg' title='Claudio A. Nuñez' description='Instructor de Karate 4° Dan Renshi Filial Barranqueras, Chaco' />
-                            <CardNosotros img='/SenseiMoratto.jpg' title='Mariano Hugo Moratto' description='Instructor de Karate 8° Dan Hanshi Filial Corrientes, Corrientes' />
+                            <CardNosotros img='/SenseiMoratto.jpg' title='Mariano Hugo Moratto' description='Instructor de Karate 8° Dan Kyoshi Filial Corrientes, Corrientes' />
                         </Fade>
                     </section>
                 </article>

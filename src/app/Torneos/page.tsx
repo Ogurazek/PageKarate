@@ -8,6 +8,7 @@ export default function TorneosPage() {
 
     return (
         <>
+            <title>Torneos 🏆</title>
             <article className={styles.container}>
                 <section className={styles.containerMain}>
                     <Fade direction='left' triggerOnce>

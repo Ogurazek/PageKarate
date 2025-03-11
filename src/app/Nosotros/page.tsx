@@ -66,7 +66,7 @@ export default function NosotrosPage() {
                             <CardNosotros img='/FotoClaudio.jpg' title='Claudio Alejandro Nuñez' description='Instructor de Karate 4° Dan Renshi Filial Barranqueras, Chaco Argentina' />
                             <CardNosotros img='/SenseiMoratto.jpg' title='Mariano Hugo Moratto' description='Instructor de Karate 8° Dan Kyoshi Filial Corrientes Capital Argentina' />
                             <CardNosotros img='/PedroFattore.jpg' title='Fundador | Pedro Fattore' description='Hanshi 10° Dan Buenos Aires, Argentina' />
-                            <CardNosotros img='/Minoru.png' title='Minoru Higa' description='Hanshi 10° Dan, Kaicho Okinawa Japon' />
+                            <CardNosotros img='/Minoru.png' title='Minoru Higa' description='Hanshi 10° Dan, Kaicho Okinawa Japon Director Mundial Hombu Dojo Okinawa' />
                         </Fade>
                     </section>
                 </article>

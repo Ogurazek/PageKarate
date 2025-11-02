@@ -1,5 +1,4 @@
 /* Todo esto conforma la primera parte de la página */
-
 .containerHome {
   width: 100vw;
   height: 36.5rem;
@@ -8,37 +7,34 @@
   align-items: center;
   gap: 3.5em;
   /* background-color: red; */
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.containerHome {
   animation: fadeIn 1s ease-out;
 }
 
-.containerTextHome {
-  width: 48%;
-  height: 100%;
-  /* background-color: blue; */
+.containerTextImage {
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: center;
+  gap: 4rem;
+}
+
+.containerTextHome,
+.containerImgLogoHome {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Texto */
+.containerTextHome {
+  /* background-color: blue; */
   flex-direction: column;
   gap: 1.8em;
 }
 
 .containerTextHome div {
   max-width: 32em;
-  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,14 +53,10 @@
   text-align: center;
 }
 
-.containerImgLogoHome {
-  min-width: 660px;
-  height: 100%;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  /* background-color: red; */
-}
+/* Imagen */
+/* .containerImgLogoHome {
+  background-color: green;
+} */
 
 .containerImgLogoHome div {
   width: 30em;
@@ -73,10 +65,22 @@
   justify-content: center;
   align-items: center;
 }
+
 .containerImgLogoHome div img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .containerJoinToUs {
@@ -116,9 +120,13 @@
 
 .containerHome2 {
   width: 100%;
-  height: 38rem;
+  min-height: 38rem;
   display: flex;
   flex-direction: column;
+}
+
+.containerMini {
+  width: 100%;
 }
 
 .containerMiniCards {
@@ -144,32 +152,25 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  display: flex;
 }
 
 .containerCard {
   width: 100%;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.8em;
-  /* background-color: blue; */
+  gap: 3rem;
 }
 
 .containerSecondImg {
-  width: 48%;
-  height: 100%;
-  /* background-color: red; */
   display: flex;
   align-items: end;
   flex-direction: column;
   gap: 1.8em;
 }
+
 .containerSecondText {
   width: 48%;
-  height: 100%;
-  /* background-color: blue; */
   display: flex;
   flex-direction: column;
   gap: 1.8em;
@@ -183,11 +184,10 @@
   overflow: hidden;
   background-color: #f9f4ec;
   flex-direction: column;
-  display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.8rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.116), 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.116), 0 1px 3px rgba(0,0,0,0.06);
 }
 
 .contenedorImg {
@@ -216,30 +216,25 @@
   color: #1d1d1ddd;
 }
 
-/* Esto es del texto de la derecha */
-
+/* TARJETA TEXTO */
 .recuadroTexto {
   width: 35em;
   height: 25em;
   display: flex;
   overflow: hidden;
   flex-direction: column;
-  display: flex;
   gap: 1.8rem;
   text-wrap: wrap;
 }
 
 .recuadroTexto span {
   font-size: 18px;
-  overflow-wrap: break-word;
   font-weight: 500;
 }
 
 .recuadroTexto strong {
   font-weight: 800;
   font-size: 38px;
-  overflow-wrap: break-word;
-  text-wrap: wrap;
   line-height: 4rem;
 }
 
@@ -253,9 +248,7 @@
   color: #4498e0;
   font-weight: 500;
   text-decoration-line: underline;
-  width: 4rem;
 }
-
 /* Esto sería parte de la sección 3  */
 
 .containerHome3 {
@@ -312,15 +305,23 @@
 
 @media (max-width: 1025px) {
   .containerHome {
-    display: flex;
-    flex-direction: column-reverse;
-    height: 100%;
-    margin-top: 0.5rem;
-  }
-  .containerImgLogoHome {
+    flex-direction: column;
     height: auto;
+    margin-top: 0.5rem;
+    gap: 1.2rem;
+  }
+
+  .containerTextImage {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .containerTextHome,
+  .containerImgLogoHome {
     width: 100%;
-    display: flex;
+    flex: none; /* importante para mobile */
     justify-content: center;
     align-items: center;
   }
@@ -328,17 +329,8 @@
   .containerImgLogoHome div {
     width: 75%;
     height: auto;
-    min-width: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
-  .containerTextHome {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+
   .containerJoinToUs {
     width: 60%;
   }
